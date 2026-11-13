@@ -1,0 +1,40 @@
+name: Bug report
+description: Something does not work as documented
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Security problems do not belong here, see SECURITY.md.
+        Never paste secrets, tokens or invite codes, and remove personal data from logs.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The package, image or app version you use.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Node 22 on Linux, Docker Compose, ..."
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. ...\n2. ..."
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or output
+      description: Trimmed to the relevant part, with secrets removed.
+      render: text

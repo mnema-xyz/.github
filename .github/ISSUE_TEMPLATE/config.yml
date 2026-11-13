@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability (private)
+    url: https://github.com/mnema-xyz/.github/blob/main/SECURITY.md
+    about: Please do not open a public issue. Report privately through the repository's Security tab.
+  - name: Something else
+    url: https://mnema.xyz
+    about: Docs, downloads and the contact address are on the website.
