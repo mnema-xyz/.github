@@ -24,7 +24,7 @@ One of you hosts it, everyone else joins with a link.</p>
 | [**mnema-talk**](https://github.com/msch128/mnema-talk) | The server and web app: one Go binary, PostgreSQL and S3 storage. Text channels, one-click voice and video Talks, screen sharing up to 4K60, roles, webhooks, bots, 2FA, Web Push. | AGPL-3.0 |
 | [**mnema-talk-desktop**](https://github.com/msch128/mnema-talk-desktop) | The desktop app for Windows, macOS and Linux. Holds all your communities side by side and runs a signed web bundle it verifies itself. | AGPL-3.0 |
 | [**bot-sdk-js**](https://github.com/mnema-xyz/bot-sdk-js) | The official TypeScript SDK for bots: REST, gateway, slash commands, components and modals. `npm install @mnema-xyz/bot-sdk` | MIT |
-| [**mnema-talk-mnemo-bot**](https://github.com/mnema-xyz/mnema-talk-mnemo-bot) | Mnemo, a self-hosted helper bot built on the SDK. Bring your own AI provider and key. | MIT |
+| [**talk-mnemo-bot**](https://github.com/mnema-xyz/talk-mnemo-bot) | Mnemo, a self-hosted helper bot built on the SDK. Bring your own AI provider and key. | MIT |
 
 ### What we stand for
 
