@@ -8,8 +8,8 @@ disclose the problem before a fix is released.
 Use GitHub's private vulnerability reporting in the affected repository:
 *Security* → *Report a vulnerability*.
 
-- Server and web app: <https://github.com/msch128/mnema-talk/security/advisories/new>
-- Desktop app: <https://github.com/msch128/mnema-talk-desktop/security/advisories/new>
+- Server and web app: <https://github.com/mnema-xyz/talk/security/advisories/new>
+- Desktop app: <https://github.com/mnema-xyz/talk-desktop/security/advisories/new>
 - Bot SDK: <https://github.com/mnema-xyz/bot-sdk-js/security/advisories/new>
 - Mnemo bot: <https://github.com/mnema-xyz/talk-mnemo-bot/security/advisories/new>
 
