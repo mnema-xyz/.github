@@ -12,7 +12,7 @@ One of you hosts it, everyone else joins with a link.</p>
 <p align="center">
   <a href="https://mnema.xyz">Website</a> ·
   <a href="https://mnema.xyz/developers/">Developer docs</a> ·
-  <a href="https://github.com/msch128/mnema-talk/releases/latest">Latest release</a>
+  <a href="https://github.com/mnema-xyz/talk/releases/latest">Latest release</a>
 </p>
 
 ---
@@ -21,15 +21,16 @@ One of you hosts it, everyone else joins with a link.</p>
 
 | Project | What it is | License |
 |---|---|---|
-| [**mnema-talk**](https://github.com/msch128/mnema-talk) | The server and web app: one Go binary, PostgreSQL and S3 storage. Text channels, one-click voice and video Talks, screen sharing up to 4K60, roles, webhooks, bots, 2FA, Web Push. | AGPL-3.0 |
-| [**mnema-talk-desktop**](https://github.com/msch128/mnema-talk-desktop) | The desktop app for Windows, macOS and Linux. Holds all your communities side by side and runs a signed web bundle it verifies itself. | AGPL-3.0 |
+| [**talk**](https://github.com/mnema-xyz/talk) | The server and web app: one Go binary, PostgreSQL and S3 storage. Text channels, one-click voice and video Talks, screen sharing up to 4K where your hardware can capture it, roles, webhooks, bots, 2FA, Web Push. | AGPL-3.0 |
+| [**talk-desktop**](https://github.com/mnema-xyz/talk-desktop) | The desktop app for Windows, macOS and Linux. Holds all your communities side by side and runs a signed web bundle it verifies itself. | AGPL-3.0 |
 | [**bot-sdk-js**](https://github.com/mnema-xyz/bot-sdk-js) | The official TypeScript SDK for bots: REST, gateway, slash commands, components and modals. `npm install @mnema-xyz/bot-sdk` | MIT |
+| [**bot-sdk-go**](https://github.com/mnema-xyz/bot-sdk-go) | The official Go SDK for bots, with the same REST, gateway and interaction surface. `go get github.com/mnema-xyz/bot-sdk-go` | MIT |
 | [**talk-mnemo-bot**](https://github.com/mnema-xyz/talk-mnemo-bot) | Mnemo, a self-hosted helper bot built on the SDK. Bring your own AI provider and key. | MIT |
 
 ### What we stand for
 
 - **Your server, your data.** Every community runs on a machine someone in it owns. No hosted version, no paid plan, no company in the middle.
-- **Honest about encryption.** Voice, video and screen sharing are end-to-end encrypted (MLS). Text is not, and we say so.
+- **Encryption where it fits.** Voice, video and screen sharing are end-to-end encrypted (MLS). Text stays readable by your server, so search and moderation work.
 - **No telemetry.** The server and the apps do not phone home.
 - **Built in the open.** Releases are signed, and the docs ship with the code.
 
