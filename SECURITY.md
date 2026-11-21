@@ -10,7 +10,8 @@ Use GitHub's private vulnerability reporting in the affected repository:
 
 - Server and web app: <https://github.com/mnema-xyz/talk/security/advisories/new>
 - Desktop app: <https://github.com/mnema-xyz/talk-desktop/security/advisories/new>
-- Bot SDK: <https://github.com/mnema-xyz/bot-sdk-js/security/advisories/new>
+- TypeScript bot SDK: <https://github.com/mnema-xyz/bot-sdk-js/security/advisories/new>
+- Go bot SDK: <https://github.com/mnema-xyz/bot-sdk-go/security/advisories/new>
 - Mnemo bot: <https://github.com/mnema-xyz/talk-mnemo-bot/security/advisories/new>
 
 If you cannot use GitHub, write to contact@mnema.xyz and we will open a private channel.
